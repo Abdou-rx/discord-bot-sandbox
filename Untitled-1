@@ -1,0 +1,14 @@
+discord-bot-sandbox/
+├── app/
+│   ├── api/                  # FastAPI endpoints
+│   │   └── route.py
+│   ├── components/           # React components
+│   │   ├── BotStatus.jsx
+│   │   ├── TokenForm.jsx
+│   │   └── Layout.jsx
+│   ├── page.jsx              # Main page
+│   └── globals.css
+├── bot/                      # Bot logic
+│   └── bot_manager.py
+├── public/                   # Static files
+└── package.json

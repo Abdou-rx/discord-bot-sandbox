@@ -1,2 +1,10 @@
-m 
+.next
+
+# NPM pkgs 
 node_modules
+
+# Python Cache
+__pycache__
+
+# dotenv
+.env

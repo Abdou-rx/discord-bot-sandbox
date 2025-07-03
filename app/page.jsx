@@ -39,11 +39,9 @@ export default function Home() {
       <h1 className="text-3xl font-bold mb-6 text-center">
         🚀 Discord Bot Sandbox
       </h1>
-      
-      <div className="bg-gray-800 rounded-lg p-6 shadow-lg">
-        <TokenForm onSubmit={handleSubmit} error={error} />
-      </div>
-      
+    <div className="bg-[#000000] rounded-lg p-6 shadow-[0_0_10px_#4b0082,0_0_20px_#8000ff,0_0_40px_#bf40ff]">
+      <TokenForm onSubmit={handleSubmit} error={error} />
+    </div>
       <div className="mt-8 text-sm text-gray-400">
         <p>
           This tool helps you get the Discord Active Developer badge by running

@@ -9,8 +9,7 @@ export async function POST(request) {
       )
     }
 
-    // In a real implementation, you would call your FastAPI endpoint here
-    const response = await fetch('https://urban-space-doodle-r4pj66w599rp2x4x6-8000.app.github.dev/api/start-bot', {
+    const response = await fetch('http://localhost:8000/api/start-bot', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
